@@ -26,6 +26,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'nine2/vim-copyright'
     Plug 'yianwillis/vimcdoc'
     Plug 'bronson/vim-trailing-whitespace'
+    Plug 'elzr/vim-json'
 call plug#end()
 
 "--------------
