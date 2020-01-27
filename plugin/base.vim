@@ -31,12 +31,14 @@ set showmatch
 " ui
 set relativenumber
 set number
-set textwidth=100
-set nowrap
+set textwidth=80
+set wrap
+" set nowrap
 set linebreak
 set wrapmargin=2
 set laststatus=2
 set ruler
+set colorcolumn=100
 " set listchars=tab:»■,trail:■
 " set list
 
@@ -45,7 +47,7 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 " set showtabline=2
-set backspace=2
+" set backspace=2
 set splitbelow
 set splitright
 
