@@ -1,3 +1,5 @@
+" https://files.jiaozhu.net/ycm_extra_conf.py
+" echo | gcc -E -Wp,-v -
 let g:ycm_global_ycm_extra_conf = "~/.vim/plugged/YouCompleteMe/.ycm_extra_conf.py"
 " make YCM compatible with UltiSnips (using supertab)
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
