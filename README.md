@@ -10,6 +10,10 @@
 - F3 启动或者关闭 *Tagbar* 窗口
 - Leader key = `,`
 - `leader` + `f` 使用 *ctrlp* 在项目中查找文件
+    - `ctrl` + `j/k` 进行上下选择
+    - `ctrl` + `x` 在当前窗口水平分屏打开文件
+    - `ctrl` + `v` 垂直分屏
+    - `ctrl` + `t` 在tab中打开
 - `FF` 在项目文件中查找内容
 - `leader` + `cc` 加注释
 - `leader` + `cu` 取消注释
