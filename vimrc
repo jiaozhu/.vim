@@ -7,7 +7,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'mattn/emmet-vim'
     Plug 'tpope/vim-surround'
     Plug 'tpope/vim-repeat'
-    Plug 'tomtom/tcomment_vim'
+    Plug 'preservim/nerdcommenter'
     " supertab用来防止使用tab展开snippet与youcompleteme的tab补全发生冲突
     Plug 'ervandew/supertab'
     " start garbas/vim-snipmate
