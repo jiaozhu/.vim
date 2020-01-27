@@ -16,3 +16,12 @@
 - `leader` + `c` + `space` 加上/解开注释, 智能判断
 - `F5` 使用 *undotrwee*
 - `F8` 编译并运行 c 代码
+- `F4` 调用 `YcmDiags`
+- `<leader>gi` GoToInclude
+- `<leader>gc` GoToDeclaration
+- `<leader>gf` GoToDefinition
+- `<leader>gg` GoTo
+- `<leader>gt` GetType
+- `<leader>gp` GetParent
+- `<leader>gd` GetDoc
+- `Ctrl-I` 和 `Ctrl-O` 来回跳转
