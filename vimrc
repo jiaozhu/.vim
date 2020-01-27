@@ -29,6 +29,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'bronson/vim-trailing-whitespace'
     Plug 'elzr/vim-json'
     Plug 'ycm-core/YouCompleteMe'
+    Plug 'jiangmiao/auto-pairs' 
 call plug#end()
 
 "--------------

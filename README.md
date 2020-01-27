@@ -14,3 +14,4 @@
 - `leader` + `cc` 加注释
 - `leader` + `cu` 取消注释
 - `leader` + `c` + `space` 加上/解开注释, 智能判断
+- `F8` 编译并运行 c 代码
