@@ -6,6 +6,7 @@ set noswapfile
 set showmode
 set showcmd
 set hidden
+set background=dark
 
 " FileEncode Settings 文件编码,格式
 " 设置新文件的编码为 UTF-8
