@@ -53,6 +53,7 @@ set splitright
 set hlsearch
 set ignorecase
 set incsearch
+set smartcase
 
 " color
 syntax on

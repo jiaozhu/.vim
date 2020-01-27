@@ -8,10 +8,11 @@ call plug#begin('~/.vim/plugged')
     Plug 'tpope/vim-surround'
     Plug 'tpope/vim-repeat'
     Plug 'tomtom/tcomment_vim'
+    " supertab用来防止使用tab展开snippet与youcompleteme的tab补全发生冲突
+    Plug 'ervandew/supertab'
     " start garbas/vim-snipmate
-    Plug 'MarcWeber/vim-addon-mw-utils'
-    Plug 'tomtom/tlib_vim'
-    Plug 'garbas/vim-snipmate'
+    " Track the engine.
+    Plug 'SirVer/ultisnips'
     Plug 'honza/vim-snippets'
     " end
     Plug 'majutsushi/tagbar'
@@ -27,6 +28,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'yianwillis/vimcdoc'
     Plug 'bronson/vim-trailing-whitespace'
     Plug 'elzr/vim-json'
+    Plug 'ycm-core/YouCompleteMe'
 call plug#end()
 
 "--------------
