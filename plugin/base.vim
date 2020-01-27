@@ -6,7 +6,6 @@ set noswapfile
 set showmode
 set showcmd
 set hidden
-set background=dark
 
 " FileEncode Settings 文件编码,格式
 " 设置新文件的编码为 UTF-8
@@ -59,6 +58,8 @@ set smartcase
 " color
 syntax on
 colorscheme gruvbox
+set background=dark
+set t_Co=256
 
 " filetype
 filetype on
