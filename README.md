@@ -18,7 +18,7 @@
 - `leader` + `cc` 加注释
 - `leader` + `cu` 取消注释
 - `leader` + `c` + `space` 加上/解开注释, 智能判断
-- `F5` 使用 *undotrwee*
+- `F5` 使用 *undotree*
 - `F8` 编译并运行 c 代码
 - `F4` 调用 `YcmDiags`
 - `F6` 切换 `Gogo` 视图
