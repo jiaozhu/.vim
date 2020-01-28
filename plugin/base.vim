@@ -31,7 +31,7 @@ set showmatch
 " ui
 set relativenumber
 set number
-set textwidth=80
+" set textwidth=80
 set wrap
 " set nowrap
 set linebreak

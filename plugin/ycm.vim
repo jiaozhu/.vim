@@ -6,7 +6,7 @@ let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
 let g:SuperTabDefaultCompletionType = '<C-n>'
 " 切换到非输入模式自动关闭补全窗口
-" autocmd InsertLeave * if pumvisible() == 0|pclose|endif
+autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 let g:ycm_key_list_stop_completion = ['<C-y>']
 let g:ycm_min_num_identifier_candidate_chars = 4
 let g:ycm_min_num_of_chars_for_completion = 2 "set 99 to turn off identifiers completer"
