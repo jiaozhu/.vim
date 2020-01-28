@@ -30,6 +30,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'elzr/vim-json'
     Plug 'ycm-core/YouCompleteMe'
     Plug 'jiangmiao/auto-pairs'
+    Plug 'junegunn/goyo.vim'
 call plug#end()
 
 "--------------

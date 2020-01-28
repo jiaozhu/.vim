@@ -21,6 +21,7 @@
 - `F5` 使用 *undotrwee*
 - `F8` 编译并运行 c 代码
 - `F4` 调用 `YcmDiags`
+- `F6` 切换 `Gogo` 视图
 - `<leader>gi` GoToInclude
 - `<leader>gc` GoToDeclaration
 - `<leader>gf` GoToDefinition
