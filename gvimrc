@@ -4,7 +4,7 @@ set guioptions-=b               "隐藏底部滚动条"
 set linespace=3
 try
     set guifont=OperatorMono-Medium:h14
-    colorscheme one
+    colorscheme PaperColor
     set background=dark
     set t_Co=256
     highlight EndOfBuffer gui=NONE guifg=bg guibg=bg

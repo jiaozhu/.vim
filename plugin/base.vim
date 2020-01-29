@@ -59,10 +59,9 @@ set smartcase
 
 " color
 syntax on
-colorscheme one
+set t_Co=256   " This is may or may not needed.
 set background=dark
-set t_Co=256
-
+colorscheme PaperColor
 " filetype
 filetype on
 filetype indent on

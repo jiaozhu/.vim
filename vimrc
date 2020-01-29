@@ -31,6 +31,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'jiangmiao/auto-pairs'
     Plug 'junegunn/goyo.vim'
     Plug 'rakr/vim-one'
+    Plug 'NLKNguyen/papercolor-theme'
 call plug#end()
 
 "--------------
