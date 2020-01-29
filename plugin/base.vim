@@ -32,9 +32,9 @@ set showmatch
 set relativenumber
 set number
 " set textwidth=80
-set nowrap
+set wrap
 " set nowrap
-set linebreak
+"set linebreak
 set wrapmargin=2
 set laststatus=2
 set ruler
