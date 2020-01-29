@@ -2,7 +2,7 @@
 
 在 YouTube 上看了一些视频之后，对 vim 有了一些新的认识，因此对配置文件重新做了修改，目前它看起来是这个样子的
 
-![截图](https://files.jiaozhu.net/blog/axiba.jpg)
+![截图](https://files.jiaozhu.net/blog/fjig2.jpg)
 
 ### 一些快捷键
 

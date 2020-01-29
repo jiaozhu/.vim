@@ -17,7 +17,6 @@ call plug#begin('~/.vim/plugged')
     " end
     Plug 'majutsushi/tagbar'
     Plug 'mileszs/ack.vim'
-    Plug 'morhetz/gruvbox'
     Plug 'airblade/vim-gitgutter'
     " start markdown
     Plug 'godlygeek/tabular'
@@ -31,6 +30,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'ycm-core/YouCompleteMe'
     Plug 'jiangmiao/auto-pairs'
     Plug 'junegunn/goyo.vim'
+    Plug 'rakr/vim-one'
 call plug#end()
 
 "--------------

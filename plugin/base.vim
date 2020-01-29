@@ -59,7 +59,7 @@ set smartcase
 
 " color
 syntax on
-colorscheme gruvbox
+colorscheme one
 set background=dark
 set t_Co=256
 
