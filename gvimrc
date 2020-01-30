@@ -1,7 +1,7 @@
 set guioptions-=r               "隐藏右侧滚动条"
 set guioptions-=L               "隐藏左侧滚动条"
 set guioptions-=b               "隐藏底部滚动条"
-set linespace=3
+set linespace=2
 try
     set guifont=OperatorMono-Medium:h14
     colorscheme PaperColor
