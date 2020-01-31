@@ -21,6 +21,7 @@ set ffs=unix,dos,mac
 set formatoptions+=m
 " 合并两行中文时，不在中间加空格
 set formatoptions+=B
+set backspace=indent,eol,start  " more powerful backspacing
 
 set noerrorbells
 " 命令模式下，底部操作指令按下 Tab 键自动补全。第一次按下 Tab，会显示所有匹配的操作指令的清单；第二次按下 Tab，会依次选择各个指令
