@@ -32,7 +32,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'junegunn/goyo.vim'
     Plug 'rakr/vim-one'
     Plug 'NLKNguyen/papercolor-theme'
-    Plug 'PotatoesMaster/i3-vim-syntax'
+    Plug 'mboughaba/i3config.vim'
 call plug#end()
 
 "--------------
