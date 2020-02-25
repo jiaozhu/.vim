@@ -62,7 +62,7 @@ set smartcase
 syntax on
 set t_Co=256   " This is may or may not needed.
 set background=dark
-colorscheme one
+colorscheme dracula
 " filetype
 filetype on
 filetype indent on
