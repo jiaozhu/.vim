@@ -6,8 +6,12 @@
 
 ### 一些快捷键
 
-- F2 启动或者关闭 *NERDTree* 窗口
-- F3 启动或者关闭 *Tagbar* 窗口
+- `F2` 启动或者关闭 *NERDTree* 窗口
+- `F3` 启动或者关闭 *Tagbar* 窗口
+- `F4` 调用 `YcmDiags`
+- `F5` 使用 *undotree*
+- `F6` 切换 `Gogo` 视图
+- `F8` 编译并运行 c 代码
 - Leader key = `,`
 - `leader` + `f` 使用 *ctrlp* 在项目中查找文件
     - `ctrl` + `j/k` 进行上下选择
@@ -18,10 +22,6 @@
 - `leader` + `cc` 加注释
 - `leader` + `cu` 取消注释
 - `leader` + `c` + `space` 加上/解开注释, 智能判断
-- `F5` 使用 *undotree*
-- `F8` 编译并运行 c 代码
-- `F4` 调用 `YcmDiags`
-- `F6` 切换 `Gogo` 视图
 - `<leader>gi` GoToInclude
 - `<leader>gc` GoToDeclaration
 - `<leader>gf` GoToDefinition
