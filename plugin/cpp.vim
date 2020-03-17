@@ -1,3 +1,8 @@
+if has("win32")
+elseif has("unix")
+    set path+=/usr/include/c++/9.3.0
+elseif has("mac")
+endif
 let g:clang_c_options = '-std=gnu11'
 let g:clang_cpp_fdkgsioptions = '-std=c++11 -stdlib=libc++'
 let g:clang_cpp_completeopt = 'longest,menuone,preview'
