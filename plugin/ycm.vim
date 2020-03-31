@@ -12,6 +12,7 @@ let g:ycm_min_num_identifier_candidate_chars = 4
 let g:ycm_min_num_of_chars_for_completion = 2 "set 99 to turn off identifiers completer"
 let g:ycm_max_num_identifier_candidates = 10 "identifier completion"
 let g:ycm_max_num_candidates = 30 "semantic completion"
+let g:ycm_goto_buffer_command = 'horizontal-split' "跳转打开上下分屏
 let g:ycm_auto_trigger = 1
 nnoremap <leader>gi :YcmCompleter GoToInclude<CR>
 nnoremap <leader>gc :YcmCompleter GoToDeclaration<CR>
