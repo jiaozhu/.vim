@@ -1,9 +1,11 @@
 " https://files.jiaozhu.net/ycm_extra_conf.py
 " echo | gcc -E -Wp,-v -
-" let g:ycm_global_ycm_extra_conf = "~/.vim/plugged/YouCompleteMe/.ycm_extra_conf.py"
+let g:ycm_global_ycm_extra_conf = "~/.ycm_extra_conf.py"
 " make YCM compatible with UltiSnips (using supertab)
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+" 关闭打开时询问配置文件的问题
+let g:ycm_confirm_extra_conf = 0
 let g:SuperTabDefaultCompletionType = '<C-n>'
 " 切换到非输入模式自动关闭补全窗口
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif

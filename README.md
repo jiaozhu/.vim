@@ -32,3 +32,4 @@
 - `Ctrl-I` 和 `Ctrl-O` 来回跳转
 - `Ctrl-a` 像 Emacs 一样，插入模式进入行首
 - `Ctrl-e` 像 Emacs 一样，插入模式进入行尾
+- `qq` 快速退出当前的 buffer
