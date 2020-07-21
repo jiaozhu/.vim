@@ -5,5 +5,5 @@ augroup json_autocmd
   autocmd FileType json set textwidth=78 shiftwidth=2
   autocmd FileType json set softtabstop=2 tabstop=8
   autocmd FileType json set expandtab
-  autocmd FileType json set foldmethod=syntax
+  " autocmd FileType json set foldmethod=syntax
 augroup END
