@@ -7,6 +7,8 @@ let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
 " 关闭打开时询问配置文件的问题
 let g:ycm_confirm_extra_conf = 0
 let g:SuperTabDefaultCompletionType = '<C-n>'
+" let g:ycm_use_clangd = 1
+let g:ycm_clangd_binary_path = "/usr/bin/clangd"
 " 切换到非输入模式自动关闭补全窗口
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 let g:ycm_key_list_stop_completion = ['<C-y>']
@@ -16,6 +18,10 @@ let g:ycm_max_num_identifier_candidates = 10 "identifier completion"
 let g:ycm_max_num_candidates = 30 "semantic completion"
 let g:ycm_goto_buffer_command = 'horizontal-split' "跳转打开上下分屏
 let g:ycm_auto_trigger = 1
+" 语义补全
+let g:ycm_semantic_triggers =  {
+            \ 'c,cpp,python,java,go,erlang,perl': ['re!\w{2}'],
+            \ 'cs,lua,javascript': ['re!\w{2}']}
 nnoremap <leader>gi :YcmCompleter GoToInclude<CR>
 nnoremap <leader>gc :YcmCompleter GoToDeclaration<CR>
 nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
