@@ -30,6 +30,7 @@ call plug#begin('~/.vim/plugged')
     " Plug 'justmao945/vim-clang'
     Plug 'ycm-core/YouCompleteMe'
     Plug 'jiangmiao/auto-pairs'
+    Plug 'frazrepo/vim-rainbow'
     Plug 'junegunn/goyo.vim'
     Plug 'rakr/vim-one'
     Plug 'NLKNguyen/papercolor-theme'
