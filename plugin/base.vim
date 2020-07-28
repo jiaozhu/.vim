@@ -5,6 +5,8 @@ set nobackup
 set noswapfile
 set showmode
 set showcmd
+set termguicolors
+" set cmdheight=2
 set hidden
 
 " FileEncode Settings 文件编码,格式
@@ -40,9 +42,9 @@ set wrapmargin=2
 set laststatus=2
 set ruler
 set colorcolumn=100
+highlight ColorColumn ctermbg=0 guibg=lightgrey
 " set listchars=tab:»■,trail:■
 " set list
-
 " edit
 set softtabstop=4
 set shiftwidth=4
@@ -58,12 +60,22 @@ set ignorecase
 set incsearch
 set smartcase
 
+" Don't pass messages to |ins-completion-menu|.
+set shortmess+=c
+
 " color
 syntax on
 set t_Co=256   " This is may or may not needed.
 set background=dark
-colorscheme dracula
+let g:gruvbox_contrast_dark = 'hard'
+if exists('+termguicolors')
+    let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+    let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+endif
+let g:gruvbox_invert_selection='0'
+" colorscheme dracula
 " filetype
+colorscheme gruvbox
 filetype on
 filetype indent on
 filetype plugin on

@@ -4,7 +4,7 @@ set guioptions-=b               "隐藏底部滚动条"
 set linespace=2
 try
     set guifont=OperatorMono-Medium:h14
-    colorscheme dracula
+    colorscheme gruvbox
     set background=dark
     set t_Co=256
     highlight EndOfBuffer gui=NONE guifg=bg guibg=bg

@@ -32,7 +32,13 @@ call plug#begin('~/.vim/plugged')
     Plug 'jiangmiao/auto-pairs'
     Plug 'frazrepo/vim-rainbow'
     Plug 'junegunn/goyo.vim'
+    " color schemes
     Plug 'rakr/vim-one'
+    Plug 'gruvbox-community/gruvbox'
+    Plug 'sainnhe/gruvbox-material'
+    Plug 'phanviet/vim-monokai-pro'
+    Plug 'vim-airline/vim-airline'
+    Plug 'flazz/vim-colorschemes'
     Plug 'NLKNguyen/papercolor-theme'
     Plug 'dracula/vim',{ 'as': 'dracula'  }
     " Plug 'mboughaba/i3config.vim'
