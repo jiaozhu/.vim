@@ -34,6 +34,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'junegunn/goyo.vim'
     " color schemes
     Plug 'rakr/vim-one'
+    Plug 'ryanoasis/vim-devicons'
     Plug 'gruvbox-community/gruvbox'
     Plug 'sainnhe/gruvbox-material'
     Plug 'phanviet/vim-monokai-pro'
