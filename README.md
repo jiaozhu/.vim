@@ -22,6 +22,7 @@
 - `leader` + `cc` 加注释
 - `leader` + `cu` 取消注释
 - `leader` + `c` + `space` 加上/解开注释, 智能判断
+- `leader` + `b` 切换 buffer
 - `<leader>gi` GoToInclude
 - `<leader>gc` GoToDeclaration
 - `<leader>gf` GoToDefinition
