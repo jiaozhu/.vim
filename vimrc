@@ -32,6 +32,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'jiangmiao/auto-pairs'
     Plug 'frazrepo/vim-rainbow'
     Plug 'junegunn/goyo.vim'
+    Plug 'dominikduda/vim_current_word'
+    Plug 'voldikss/vim-translator'
     " color schemes
     Plug 'rakr/vim-one'
     Plug 'ryanoasis/vim-devicons'
