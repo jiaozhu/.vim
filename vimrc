@@ -43,6 +43,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'vim-airline/vim-airline'
     Plug 'flazz/vim-colorschemes'
     Plug 'NLKNguyen/papercolor-theme'
+    Plug 'easymotion/vim-easymotion'
     Plug 'dracula/vim',{ 'as': 'dracula'  }
     " Plug 'mboughaba/i3config.vim'
 call plug#end()
