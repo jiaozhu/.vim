@@ -3,7 +3,7 @@ set guioptions-=L               "隐藏左侧滚动条"
 set guioptions-=b               "隐藏底部滚动条"
 set linespace=2
 try
-    set guifont=OperatorMono-Medium:h14
+    set guifont=FiraCode NF:h12
     colorscheme gruvbox
     set background=dark
     set t_Co=256
