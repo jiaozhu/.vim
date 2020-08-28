@@ -38,6 +38,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'rakr/vim-one'
     Plug 'ryanoasis/vim-devicons'
     Plug 'gruvbox-community/gruvbox'
+    Plug 'sonph/onehalf', {'rtp': 'vim/'},
     Plug 'sainnhe/gruvbox-material'
     Plug 'phanviet/vim-monokai-pro'
     Plug 'vim-airline/vim-airline'

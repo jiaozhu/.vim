@@ -67,15 +67,14 @@ set shortmess+=c
 syntax on
 set t_Co=256   " This is may or may not needed.
 set background=dark
-let g:gruvbox_contrast_dark = 'hard'
 if exists('+termguicolors')
     let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
     let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+    set termguicolors
 endif
-let g:gruvbox_invert_selection='0'
 " colorscheme dracula
 " filetype
-colorscheme gruvbox
+colorscheme onehalfdark
 filetype on
 filetype indent on
 filetype plugin on
