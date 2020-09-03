@@ -36,6 +36,7 @@ set relativenumber
 set number
 " set textwidth=80
 set wrap
+set textwidth=0
 " set nowrap
 "set linebreak
 set wrapmargin=2
