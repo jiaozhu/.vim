@@ -1,5 +1,5 @@
-map <F8> :w <CR> :!clear && clang -Wall -pipe % -o %< && ./%< <CR>
-map <F9> :w <CR> :!clear && clang -std=c++0x % -o %< && ./%< <CR>
+nnoremap <F8> <Esc>:w <CR> :!clear && gcc -Wall -pipe % -o %< && ./%< <CR>
+nnoremap <F9> <Esc>:w <CR> :!clear && g++ -std=c++11 -Wall % -o %< && ./%< <CR>
 map <C-a> <ESC>^
 imap <C-a> <ESC>I
 map <C-e> <ESC>$

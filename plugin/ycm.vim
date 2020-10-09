@@ -7,7 +7,7 @@ let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
 let g:ycm_confirm_extra_conf = 0
 let g:SuperTabDefaultCompletionType = '<C-n>'
 " let g:ycm_use_clangd = 1
-let g:ycm_clangd_binary_path = "/usr/bin/clangd"
+let g:ycm_clangd_binary_path = "/usr/local/clang/bin/clangd"
 " 切换到非输入模式自动关闭补全窗口
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 let g:ycm_key_list_stop_completion = ['<C-y>']
@@ -32,7 +32,7 @@ nmap <F4> :YcmDiags<CR>
 " 文件类型白名单，只有打开这里面的文件类型时才启用ycm的补全，防止打开一些比较大的非代码文件时ycm卡住
 let g:ycm_filetype_whitelist = {
                         \ "c":1,
-                            \ "cpp":1,
+                        \ "cpp":1,
                             \ "objc":1,
                         \ "sh":1,
                         \ "zsh":1,

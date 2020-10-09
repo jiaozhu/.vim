@@ -27,6 +27,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'yianwillis/vimcdoc'
     Plug 'bronson/vim-trailing-whitespace'
     Plug 'elzr/vim-json'
+    Plug 'chr4/nginx.vim'
+    Plug 'lepture/vim-jinja'
     " Plug 'justmao945/vim-clang'
     Plug 'ycm-core/YouCompleteMe'
     Plug 'jiangmiao/auto-pairs'
