@@ -7,7 +7,7 @@ let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
 let g:ycm_confirm_extra_conf = 0
 let g:SuperTabDefaultCompletionType = '<C-n>'
 " let g:ycm_use_clangd = 1
-let g:ycm_clangd_binary_path = "/usr/local/clang/bin/clangd"
+let g:ycm_clangd_binary_path = "/usr/bin/clangd"
 " 切换到非输入模式自动关闭补全窗口
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 let g:ycm_key_list_stop_completion = ['<C-y>']
