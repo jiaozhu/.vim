@@ -42,3 +42,5 @@ let g:ycm_filetype_whitelist = {
                         \ "conf":1
                         \ }
 
+
+highlight Pmenu ctermfg=4 ctermbg=8 guifg=#ffffff guibg=#000000
