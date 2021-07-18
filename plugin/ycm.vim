@@ -6,12 +6,20 @@ let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
 " 关闭打开时询问配置文件的问题
 let g:ycm_confirm_extra_conf = 0
 let g:SuperTabDefaultCompletionType = '<C-n>'
+" 关闭函数原型预览窗口
+set completeopt=menu,menuone
+let g:ycm_add_preview_to_completeopt = 0
+" 关闭显示诊断信息
+let g:ycm_show_diagnostics_ui = 0
+
+let g:ycm_collect_identifiers_from_comments_and_strings = 1
+let g:ycm_complete_in_strings=1
 " let g:ycm_use_clangd = 1
 let g:ycm_clangd_binary_path = "/usr/bin/clangd"
 " 切换到非输入模式自动关闭补全窗口
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 let g:ycm_key_list_stop_completion = ['<C-y>']
-let g:ycm_min_num_identifier_candidate_chars = 4
+let g:ycm_min_num_identifier_candidate_chars = 2
 let g:ycm_min_num_of_chars_for_completion = 2 "set 99 to turn off identifiers completer"
 let g:ycm_max_num_identifier_candidates = 10 "identifier completion"
 let g:ycm_max_num_candidates = 30 "semantic completion"
