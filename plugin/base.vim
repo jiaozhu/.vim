@@ -1,6 +1,7 @@
 set nocompatible
 set clipboard=unnamed
 set cursorline
+set cursorcolumn
 set nobackup
 set noswapfile
 set showmode
@@ -43,7 +44,9 @@ set wrapmargin=2
 set laststatus=2
 set ruler
 set colorcolumn=100
-highlight ColorColumn ctermbg=0 guibg=lightgrey
+" highlight CursorLine   cterm=NONE ctermbg=black ctermfg=green guibg=NONE guifg=NONE
+" highlight CursorColumn cterm=NONE ctermbg=black ctermfg=green guibg=NONE guifg=NONE
+" highlight ColorColumn ctermbg=0 guibg=lightgrey
 " set listchars=tab:»■,trail:■
 " set list
 " edit
@@ -75,7 +78,12 @@ if exists('+termguicolors')
 endif
 " colorscheme dracula
 " filetype
-colorscheme onehalfdark
+" colorscheme onehalfdark
+let g:solarized_termcolors=256
+let g:colarized_termtrans=1
+colorscheme solarized
+highlight CursorLine   cterm=NONE ctermbg=black ctermfg=green guibg=NONE guifg=NONE
+highlight CursorColumn cterm=NONE ctermbg=black ctermfg=green guibg=NONE guifg=NONE
 filetype on
 filetype indent on
 filetype plugin on

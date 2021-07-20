@@ -4,10 +4,11 @@ set guioptions-=b               "隐藏底部滚动条"
 set linespace=2
 try
     set guifont=FiraCode NF:h12
-    colorscheme gruvbox
+    let g:solarized_termcolors=256
+    colorscheme solarized
     set background=dark
     set t_Co=256
-    highlight EndOfBuffer gui=NONE guifg=bg guibg=bg
+    " highlight EndOfBuffer gui=NONE guifg=bg guibg=bg
 catch
 endtry
 

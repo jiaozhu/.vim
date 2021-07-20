@@ -48,6 +48,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'NLKNguyen/papercolor-theme'
     Plug 'easymotion/vim-easymotion'
     Plug 'dracula/vim',{ 'as': 'dracula'  }
+    Plug 'altercation/vim-colors-solarized'
     " Plug 'mboughaba/i3config.vim'
 call plug#end()
 
