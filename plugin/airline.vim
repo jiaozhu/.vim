@@ -5,6 +5,6 @@ else
     let g:airline#extensions#tabline#enabled = 1
 endif
 let g:one_allow_italics = 1
-" let g:airline_theme='onehalfdark'
-let g:airline_theme='solarized'
-let g:airline_solarized_bg='dark'
+let g:airline_theme='angr'
+" let g:airline_theme='solarized'
+" let g:airline_solarized_bg='dark'

@@ -76,14 +76,14 @@ if exists('+termguicolors')
     let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
     set termguicolors
 endif
-" colorscheme dracula
+colorscheme dracula
 " filetype
 " colorscheme onehalfdark
-let g:solarized_termcolors=256
-let g:colarized_termtrans=1
-colorscheme solarized
-highlight CursorLine   cterm=NONE ctermbg=black ctermfg=green guibg=NONE guifg=NONE
-highlight CursorColumn cterm=NONE ctermbg=black ctermfg=green guibg=NONE guifg=NONE
+" let g:solarized_termcolors=256
+" let g:colarized_termtrans=1
+" colorscheme solarized
+" highlight CursorLine   cterm=NONE ctermbg=black ctermfg=green guibg=NONE guifg=NONE
+" highlight CursorColumn cterm=NONE ctermbg=black ctermfg=green guibg=NONE guifg=NONE
 filetype on
 filetype indent on
 filetype plugin on
